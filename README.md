@@ -6,9 +6,9 @@ Mistletoe is used for rendering.
 The site is [here](https://comamoca.github.io/markdrip.github.io/) even in the rendered result.
 
 
-## インストール
+## Install
 
-[pipx](https://github.com/pypa/pipx)の使用を推奨します。
+Recommend using [pipx] (https://github.com/pypa/pipx).
 
 `pip install markdrip`
 
