@@ -8,7 +8,7 @@ The site is [here](https://comamoca.github.io/markdrip.github.io/) even in the r
 
 ## Install
 
-Recommend using [pipx] (https://github.com/pypa/pipx).
+Recommend using [pipx](https://github.com/pypa/pipx).
 
 `pip install markdrip`
 
