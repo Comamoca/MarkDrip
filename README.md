@@ -5,6 +5,13 @@ Mistletoe is used for rendering.
 
 The site is [here](https://comamoca.github.io/markdrip.github.io/) even in the rendered result.
 
+
+## インストール
+
+[pipx](https://github.com/pypa/pipx)の使用を推奨します。
+
+`pip install markdrip`
+
 ## How to use
 
 `markdrip filename`
@@ -29,6 +36,7 @@ CSS is stored under `~ / .markdrip`.
 Note that when writing CSS, specify the tag name directly in the selector.
 
 Ex.)
+
 ```
 h1, h2, h3, h4, h5 {
 	color: black

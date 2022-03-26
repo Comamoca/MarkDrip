@@ -3,8 +3,9 @@ import pathlib
 import mistletoe
 from jinja2 import Template
 
-CSS_DIR = pathlib.Path("./css")
-BASE_DIR = pathlib.Path("./templete")
+CSS_DIR = pathlib.Path("./markdrip/css/")
+CUSTOM_CSS_DIR = pathlib.Path("~/.markdrip")
+BASE_DIR = pathlib.Path("./markdrip/templete")
 
 
 def markup(filepath):
@@ -20,10 +21,19 @@ def markup(filepath):
 
 
 def load_css(css_name):
-    print("load css... " + str(CSS_DIR / pathlib.Path(css_name).with_suffix(".css")))
-    with open(CSS_DIR / pathlib.Path(css_name).with_suffix(".css")) as css_file:
+    load_path = CSS_DIR / pathlib.Path(css_name).with_suffix(".css")
+    if load_path.exists() == True:
+        print("load_path ==> " + str(load_path))
+        with open(load_path) as css_file:
+            css = css_file.read()
+        return css
+
+    load_path = (CUSTOM_CSS_DIR / pathlib.Path(css_name).with_suffix(".css"))
+    print("load_path ==> " + str(load_path))
+    with open(load_path) as css_file:
         css = css_file.read()
     return css
+
 
 
 def rendor(html, css, filename=None, basename="base.html"):

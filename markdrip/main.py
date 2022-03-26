@@ -1,6 +1,6 @@
 import click
 
-from mods import generator as gen
+from markdrip.mods import generator as gen
 
 @click.command()
 @click.option("--output", default="./", help="Output destination file path")
