@@ -4,7 +4,7 @@ import mistletoe
 from jinja2 import Template
 
 CSS_DIR = pathlib.Path("./markdrip/css/")
-CUSTOM_CSS_DIR = pathlib.Path("~/.markdrip")
+CUSTOM_CSS_DIR = pathlib.Path().home() / pathlib.Path(".markdrip")
 BASE_DIR = pathlib.Path("./markdrip/templete")
 
 
@@ -29,7 +29,7 @@ def load_css(css_name):
         return css
 
     load_path = (CUSTOM_CSS_DIR / pathlib.Path(css_name).with_suffix(".css"))
-    print("load_path ==> " + str(load_path))
+    print("load_path ==> " + str(load_path.resolve()))
     with open(load_path) as css_file:
         css = css_file.read()
     return css

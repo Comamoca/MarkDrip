@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "markdrip"
-version = "0.1.1"
+version = "0.1.2"
 readme = "README.md"
 repository = "https://github.com/Comamoca/MarkDrip"
 description = "Simple MarkDown renderer"

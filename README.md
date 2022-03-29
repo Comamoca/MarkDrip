@@ -8,7 +8,7 @@ The site is [here](https://comamoca.github.io/markdrip.github.io/) even in the r
 
 ## インストール
 
-[pipx](https://github.com/pypa/pipx)の使用を推奨します。
+Recommend using [pipx](https://github.com/pypa/pipx).
 
 `pip install markdrip`
 
