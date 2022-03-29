@@ -6,7 +6,7 @@ Mistletoe is used for rendering.
 The site is [here](https://comamoca.github.io/markdrip.github.io/) even in the rendered result.
 
 
-## インストール
+## Install
 
 Recommend using [pipx](https://github.com/pypa/pipx).
 
