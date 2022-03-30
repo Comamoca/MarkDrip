@@ -8,10 +8,16 @@ from markdrip.mods import generator as gen
 
 @click.argument("target")
 def main(target, theme, output):
-    print(target, output, theme)
+
     mkup, filename = gen.markup(target)
     css = gen.load_css(theme)
-    gen.rendor(mkup, css, output)
+    if css != "\\[ERROR]/":
+        if output == "./":
+            output = filename + ".html"
+        print(target, output, theme)
+        gen.rendor(mkup, css, output)
+
+
 
 if __name__ == "__main__":
     main()
