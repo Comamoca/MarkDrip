@@ -1,8 +1,7 @@
+> **Warning**
+> This repository has been archived. See [goma](https://github.com/Comamoca/goma) for alternative tools.
+
 # Markdrip
-
-## Important
-
-This repository has been archived. See [goma](https://github.com/Comamoca/goma) for alternative tools.
 
 MarkDrip is a simple HTML generator.
 Mistletoe is used for rendering.
