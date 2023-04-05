@@ -2,7 +2,7 @@
 
 This repository **has been archived.** See [goma](https://github.com/Comamoca/goma) for alternative tools. 
 
-I have learned a lot from the development of this tool. I have learned a lot from developing this tool, and I am using it in my current development. Thank you Markdrip!!
+I have learned a lot from the development of this tool. I have learned a lot from developing this tool, and I am using it in my current development. Thank you **Markdrip** and **contributors!!** I would like to thank you again.🙏
 
 # Markdrip
 
